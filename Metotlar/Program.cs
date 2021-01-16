@@ -29,7 +29,16 @@ namespace Metotlar
             }
 
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("------------------Metotlar--------------------!");
+
+
+            SepetManager sepetManager = new SepetManager();
+            sepetManager.Ekle(urun1);
+            sepetManager.Ekle(urun2);
+
+
+
+            sepetManager.Ekle2("Armut", "Yeşil Armut", 12 , 300);
         }
     }
 }
